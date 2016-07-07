@@ -22,7 +22,7 @@ namespace WindowsFormsApplication1
             //send Feature 1 telemetry
             GAWrapper.TrackEvent("FU", "Feature 1", "Feature Usage");
             Form2 form = new Form2();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
